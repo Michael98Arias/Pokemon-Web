@@ -1,3 +1,11 @@
+<script setup lang="ts">
+
+import Place from '/icons/place.png'
+defineOptions({
+  name: 'ErrorNotFound'
+});
+</script>
+
 <template>
   <div class="fullscreen bg-red text-white text-center q-pa-md flex flex-center">
     <div>
@@ -21,11 +29,3 @@
     </div>
   </div>
 </template>
-
-<script setup lang="ts">
-
-import Place from '/icons/place.png'
-defineOptions({
-  name: 'ErrorNotFound'
-});
-</script>
