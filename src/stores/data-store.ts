@@ -5,7 +5,7 @@ export const useAuthStore = defineStore('auth', {
     isAuthenticated: false,
   }),
   actions: {
-    authenticated(isAuthenticated: boolean, role:string, id: number) {
+    authenticated(isAuthenticated: boolean) {
       this.isAuthenticated = isAuthenticated;
     },
     deauthenticate() {
