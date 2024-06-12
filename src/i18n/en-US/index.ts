@@ -6,8 +6,15 @@ export default {
     labelButton: 'Go Home',
   },
   mainLayout: {
-    title: 'Welcome to Pokédex',
-    text: 'The digital encyclopedia created by Professor Oak is an invaluable tool to Trainers in the Pokémon world.',
-    labelButton: 'Get started'
+    home:{
+      title: 'Welcome to Pokédex',
+      text: 'The digital encyclopedia created by Professor Oak is an invaluable tool to Trainers in the Pokémon world.',
+      labelButton: 'Get started'
+    },
+    itemList:{
+      title: 'Uh-oh!',
+      text: 'You look lost on your journey!',
+      labelButton: 'Go back home'
+    }
   }
 };

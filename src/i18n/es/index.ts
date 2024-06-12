@@ -6,8 +6,15 @@ export default {
     labelButton: 'Ir al inicio',
   },
   mainLayout: {
-    title: 'Bienvenido a Pokédex',
-    text: 'La enciclopedia digital creada por el Profesor Oak es una herramienta invaluable para los Entrenadores en el mundo de los Pokémon.',
-    labelButton: 'Empezar'
+    home:{
+      title: 'Bienvenido a Pokédex',
+      text: 'La enciclopedia digital creada por el Profesor Oak es una herramienta invaluable para los Entrenadores en el mundo de los Pokémon.',
+      labelButton: 'Empezar'
+    },
+    itemList:{
+      title: ' ¡Uy!',
+      text: '¡Te ves perdido en tu viaje!',
+      labelButton: 'Regresar a casa'
+    }
   }
 };
