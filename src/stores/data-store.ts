@@ -8,8 +8,8 @@ export const useAuthStore = defineStore('auth', {
     authenticated(isAuthenticated: boolean) {
       this.isAuthenticated = isAuthenticated;
     },
-    deauthenticate() {
-      this.isAuthenticated = false;
+    deauthenticate(isAuthenticated: boolean) {
+      this.isAuthenticated = isAuthenticated;
     },
   },
 });
