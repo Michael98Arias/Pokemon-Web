@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Index from '/index.jpg'
+import Index from '/images/index.jpg'
 import { useAuthStore } from '../../../stores/data-store';
 import { onMounted } from 'vue';
 import { useRouter } from 'vue-router';
