@@ -6,18 +6,35 @@ export default {
     labelButton: 'Ir al inicio',
   },
   mainLayout: {
-    home:{
+    home: {
       title: 'Bienvenido a Pokédex',
       text: 'La enciclopedia digital creada por el Profesor Oak es una herramienta invaluable para los Entrenadores en el mundo de los Pokémon.',
-      labelButton: 'Empezar'
+      labelButton: 'Empezar',
     },
-    itemList:{
-      labelSearch:'Buscar',
+    itemList: {
+      labelSearch: 'Buscar',
       title: ' ¡Uy!',
       text: '¡Te ves perdido en tu viaje!',
       labelButton: 'Regresar a casa',
       labelButtonAll: 'Todos',
-      labelButtonFavorite: 'Favoritos'
-    }
-  }
+      labelButtonFavorite: 'Favoritos',
+      dataCard: {
+        labelName: 'Nombre',
+        labelBaseExperience: 'Experiencia base',
+        labelHeight: 'Altura',
+        labelWeight: 'Peso',
+        labelTypes: 'Tipos',
+        labelAbilities: 'Habilidades',
+        labelStats: 'Estadísticas',
+        columnStats: {
+          labelName: 'Nombre',
+          labelBaseStat: 'Estadística Base',
+          labelEffort: 'Esfuerzo',
+        },
+        labelButtonShare:'Compartir con mis amigos',
+        textCopied:'¡Texto copiado al portapapeles!',
+        textCopiedFailed: 'No se pudo copiar el texto'
+      },
+    },
+  },
 };
