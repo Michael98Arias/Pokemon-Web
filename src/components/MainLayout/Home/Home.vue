@@ -34,7 +34,7 @@ const deauthenticateStore = async (state: boolean) => {
                 {{ $t('mainLayout.home.text') }}
             </div>
 
-            <q-btn class="q-pa-md m" rounded dense color="red" :label="$t('mainLayout.home.labelButton')"
+            <q-btn class="q-pa-sm" rounded dense color="red" :label="$t('mainLayout.home.labelButton')"
                 @click="authenticatedStore(true)" />
 
         </div>

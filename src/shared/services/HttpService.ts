@@ -9,7 +9,7 @@
 import Axios, { AxiosHeaderValue, AxiosInstance, AxiosRequestConfig } from 'axios';
 // import { StatusCodes } from 'http-status-codes';
 import { HttpError } from '../models/HttpError';
-import { envBaseUrl,  singBaseUrl} from '../constants/Environment';
+import { envBaseUrl} from '../constants/Environment';
 // import { LOCAL_STORAGE_USER } from '../store/modules/Auth';->Current
 
 
@@ -21,7 +21,6 @@ const config: AxiosRequestConfig = {
 };
 
 const singConfig: AxiosRequestConfig = {
-	baseURL: singBaseUrl,
 	headers: {
 		'Content-Type': 'application/json'
 	}

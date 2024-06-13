@@ -13,6 +13,5 @@ export const isProduction: boolean = env.MODE === 'production';
 export const isDevelopment: boolean = env.MODE === 'development';
 export const isTest: boolean = env.MODE === 'test';
 export const envBaseUrl = import.meta.env.VITE_API_BASE_URL;
-export const singBaseUrl = import.meta.env.VITE_API_BASE_URL_SING;
 export const versionApp = !isProduction ? `v0.9.6-${env.MODE}` : ''
 
