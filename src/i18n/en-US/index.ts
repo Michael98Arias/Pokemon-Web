@@ -12,9 +12,12 @@ export default {
       labelButton: 'Get started'
     },
     itemList:{
+      labelSearch:'Search',
       title: 'Uh-oh!',
       text: 'You look lost on your journey!',
-      labelButton: 'Go back home'
+      labelButton: 'Go back home',
+      labelButtonAll: 'All',
+      labelButtonFavorite: 'Favorites'
     }
   }
 };
